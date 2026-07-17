@@ -3,258 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>ICANDIIHOMES | Las Vegas Real Estate & Notary Services</title>
-
-  <meta
-    name="description"
-    content="Candii Flores provides real estate guidance and mobile notary services throughout Las Vegas and Southern Nevada."
-  >
-
+  <meta name="description" content="Candii Flores provides real estate guidance and mobile notary services throughout Las Vegas and Southern Nevada.">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home">ICANDIIHOMES</a>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#real-estate">Real Estate</a>
+      <a href="#notary">Notary</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<header class="site-header">
-  <a class="brand" href="#home">ICANDIIHOMES</a>
-
-  <nav>
-    <a href="#home">HOME</a>
-    <a href="#real-estate">REAL ESTATE</a>
-    <a href="#notary">NOTARY</a>
-    <a href="#about">ABOUT</a>
-    <a href="#contact">CONTACT</a>
-  </nav>
-</header>
-
-<main>
-
-  <section class="hero" id="home">
-    <div class="hero-content">
-
-      <p class="eyebrow">
-        LAS VEGAS REAL ESTATE • MOBILE NOTARY SERVICES
-      </p>
-
-      <h1>
-        BUILDING FUTURES.<br>
-        CREATING LEGACIES.
-      </h1>
-
-      <p class="hero-description">
-        Personalized real estate guidance and professional mobile notary
-        services throughout Las Vegas and Southern Nevada.
-      </p>
-
-      <div class="buttons">
-        <a
-          class="gold-button"
-          href="https://calendly.com/candii-icandii/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          BOOK A CONSULTATION
-        </a>
-
-        <a class="outline-button" href="tel:+17022892158">
-          CALL 702-289-2158
-        </a>
+  <main>
+    <section class="hero" id="home" aria-label="ICANDIIHOMES introduction">
+      <img src="assets/icandii-hero.png" alt="Candii Flores, ICANDIIHOMES Las Vegas real estate branding" class="hero-image">
+      <div class="hero-actions">
+        <a class="button button-gold" href="https://calendly.com/candii-icandii/30min" target="_blank" rel="noopener noreferrer">Book a Consultation</a>
+        <a class="button button-dark" href="tel:+17022892158">Call 702-289-2158</a>
+        <a class="button button-outline" href="sms:+17022892158?body=Hello%20Candii%2C%20I%20am%20contacting%20you%20through%20ICANDIIHOMES.">Text Candii</a>
       </div>
+    </section>
 
+    <section class="section" id="real-estate">
+      <p class="section-kicker">Your real estate journey</p>
+      <h1>Las Vegas Real Estate</h1>
+      <div class="cards">
+        <article class="card">
+          <h2>Buy a Home</h2>
+          <p>Personalized support for first-time buyers, relocating clients, investors and anyone searching for their next home.</p>
+          <a href="#contact">Start your search</a>
+        </article>
+        <article class="card">
+          <h2>Sell Your Home</h2>
+          <p>Strategic guidance, professional communication and attentive service throughout the selling process.</p>
+          <a href="#contact">Request a consultation</a>
+        </article>
+        <article class="card">
+          <h2>Invest & Build</h2>
+          <p>Explore investment properties, new construction opportunities and real estate options throughout Southern Nevada.</p>
+          <a href="#contact">Explore opportunities</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="notary">
+      <p class="section-kicker">Professional · Mobile · Reliable</p>
+      <h1>Notary Services</h1>
+      <p class="lead">NNA Certified Notary Signing Agent serving Las Vegas and surrounding Southern Nevada communities.</p>
+      <div class="cards">
+        <article class="card">
+          <h2>Loan Signings</h2>
+          <p>Buyer packages, seller packages, refinance documents and other real estate signing appointments.</p>
+        </article>
+        <article class="card">
+          <h2>Mobile Notary</h2>
+          <p>Convenient mobile appointments for acknowledgments, jurats and other permitted notarial services.</p>
+        </article>
+        <article class="card">
+          <h2>General Notary Work</h2>
+          <p>Power of attorney documents, trust documents and other permitted notarial acts.</p>
+        </article>
+      </div>
+      <div class="center-actions">
+        <a class="button button-gold" href="https://calendly.com/candii-icandii/30min" target="_blank" rel="noopener noreferrer">Request Notary Service</a>
+        <a class="button button-dark" href="sms:+17022892158?body=Hello%20Candii%2C%20I%20would%20like%20to%20request%20notary%20services.">Text for Availability</a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div>
+        <p class="section-kicker">Professional guidance · Personal service</p>
+        <h1>Meet Candii Flores</h1>
+        <p class="lead">REALTOR® | NNA Certified Notary Signing Agent</p>
+        <p>Through ICANDIIHOMES, Candii provides personalized real estate guidance and dependable notary services with a commitment to professionalism, communication and exceptional client care.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="section-kicker">Let's connect</p>
+      <h1>How Can I Help You?</h1>
+      <p class="lead">Whether you are buying, selling, investing or requesting mobile notary services, connect with Candii to discuss your next step.</p>
+      <div class="center-actions">
+        <a class="button button-gold" href="mailto:zenuniacquisitions@gmail.com">Email Candii</a>
+        <a class="button button-outline-light" href="https://calendly.com/candii-icandii/30min" target="_blank" rel="noopener noreferrer">Book Online</a>
+        <a class="button button-outline-light" href="tel:+17022892158">Call</a>
+        <a class="button button-outline-light" href="sms:+17022892158">Text</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>ICANDIIHOMES</h2>
+    <p>Candii Flores, REALTOR® · S.0196464<br>Zenuni Realty Group<br>NNA Certified Notary Signing Agent · Las Vegas, Nevada</p>
+    <div class="compliance-row">
+      <span>REALTOR®</span>
+      <span>Equal Housing Opportunity</span>
     </div>
-  </section>
-
-  <section class="services" id="real-estate">
-
-    <p class="section-label">YOUR REAL ESTATE JOURNEY</p>
-    <h2>LAS VEGAS REAL ESTATE</h2>
-
-    <div class="service-grid">
-
-      <article class="card">
-        <h3>BUY A HOME</h3>
-        <p>
-          Personalized assistance for first-time buyers, relocating clients,
-          investors and anyone searching for their next home.
-        </p>
-
-        <a href="#contact">START YOUR HOME SEARCH</a>
-      </article>
-
-      <article class="card">
-        <h3>SELL YOUR HOME</h3>
-        <p>
-          Strategic guidance, professional communication and personalized
-          support throughout the selling process.
-        </p>
-
-        <a href="#contact">REQUEST A CONSULTATION</a>
-      </article>
-
-      <article class="card">
-        <h3>INVEST &amp; BUILD</h3>
-        <p>
-          Explore investment properties, new construction opportunities and
-          real estate options throughout Southern Nevada.
-        </p>
-
-        <a href="#contact">EXPLORE OPPORTUNITIES</a>
-      </article>
-
-    </div>
-  </section>
-
-  <section class="about" id="notary">
-
-    <p class="section-label">PROFESSIONAL • MOBILE • RELIABLE</p>
-    <h2>NOTARY SERVICES</h2>
-
-    <p class="professional-title">
-      NNA Certified Notary Signing Agent
-    </p>
-
-    <div class="service-grid">
-
-      <article class="card">
-        <h3>LOAN SIGNINGS</h3>
-        <p>
-          Buyer packages, seller packages, refinance documents and other
-          real estate loan signing appointments.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>MOBILE NOTARY</h3>
-        <p>
-          Convenient mobile appointments throughout Las Vegas and surrounding
-          Southern Nevada communities.
-        </p>
-      </article>
-
-      <article class="card">
-        <h3>GENERAL NOTARY WORK</h3>
-        <p>
-          Acknowledgments, jurats, power of attorney documents, trust documents
-          and other permitted notarial services.
-        </p>
-      </article>
-
-    </div>
-
-    <div class="buttons centered-buttons">
-      <a
-        class="gold-button"
-        href="https://calendly.com/candii-icandii/30min"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        REQUEST NOTARY SERVICE
-      </a>
-
-      <a
-        class="outline-button"
-        href="sms:+17022892158?body=Hello%20Candii%2C%20I%20would%20like%20to%20request%20notary%20services."
-      >
-        TEXT FOR AVAILABILITY
-      </a>
-    </div>
-
-  </section>
-
-  <section class="about" id="about">
-
-    <p class="section-label">PROFESSIONAL GUIDANCE • PERSONAL SERVICE</p>
-    <h2>MEET CANDII FLORES</h2>
-
-    <p class="professional-title">
-      REALTOR® | NNA Certified Notary Signing Agent
-    </p>
-
-    <p>
-      Through ICANDIIHOMES, Candii Flores provides personalized real estate
-      guidance and dependable notary services with a commitment to
-      professionalism, communication and exceptional client care.
-    </p>
-
-  </section>
-
-  <section class="contact" id="contact">
-
-    <p class="section-label">LET'S CONNECT</p>
-    <h2>HOW CAN I HELP YOU?</h2>
-
-    <p>
-      Whether you are buying, selling, investing or requesting mobile notary
-      services, connect with Candii to discuss your next step.
-    </p>
-
-    <div class="contact-buttons">
-
-      <a href="mailto:zenuniacquisitions@gmail.com">
-        EMAIL CANDII
-      </a>
-
-      <a
-        href="https://calendly.com/candii-icandii/30min"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        BOOK ONLINE
-      </a>
-
-      <a href="tel:+17022892158">
-        CALL
-      </a>
-
-      <a
-        href="sms:+17022892158?body=Hello%20Candii%2C%20I%20am%20contacting%20you%20through%20ICANDIIHOMES."
-      >
-        TEXT
-      </a>
-
-    </div>
-
-  </section>
-
-</main>
-
-<footer>
-
-  <h3>ICANDIIHOMES</h3>
-
-  <p>
-    Candii Flores, REALTOR®<br>
-    Zenuni Realty Group<br>
-    NNA Certified Notary Signing Agent<br>
-    Las Vegas, Nevada
-  </p>
-
-  <div class="compliance-area">
-
-    <div class="compliance-item">
-      <strong>REALTOR®</strong>
-    </div>
-
-    <div class="compliance-item equal-housing">
-      <span class="equal-housing-symbol" aria-hidden="true">⌂</span>
-      <strong>EQUAL HOUSING OPPORTUNITY</strong>
-    </div>
-
-  </div>
-
-  <p class="legal-text">
-    ICANDIIHOMES supports the principles of the Fair Housing Act and
-    Equal Housing Opportunity. REALTOR® is a registered collective
-    membership mark identifying real estate professionals who are members
-    of the National Association of REALTORS® and subscribe to its Code of Ethics.
-  </p>
-
-  <p>
-    © 2026 ICANDIIHOMES. All rights reserved.
-  </p>
-
-</footer>
-
+    <p class="legal">ICANDIIHOMES supports the principles of the Fair Housing Act and Equal Housing Opportunity. REALTOR® is a registered collective membership mark identifying real estate professionals who are members of the National Association of REALTORS® and subscribe to its Code of Ethics.</p>
+    <p>© 2026 ICANDIIHOMES. All rights reserved.</p>
+  </footer>
 </body>
 </html>
